@@ -2606,7 +2606,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 25%;			/* Lower this value (e.g., 20% or 25%) to make the sidebar narrower */
-		padding: 6em 2em; 	/* Reduced side padding so text fits comfortably */
+		/*padding: 6em 2em; 	/* Reduced side padding so text fits comfortably */
 	}
 
 		#header > * {
