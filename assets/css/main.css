@@ -2605,7 +2605,8 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25%;			/* Lower this value (e.g., 20% or 25%) to make the sidebar narrower */
+		padding: 6em 2em; 	/* Reduced side padding so text fits comfortably */
 	}
 
 		#header > * {
@@ -2683,10 +2684,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 25%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
